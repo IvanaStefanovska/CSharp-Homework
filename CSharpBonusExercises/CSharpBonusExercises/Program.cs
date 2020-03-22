@@ -83,7 +83,7 @@ namespace CSharpBonusExercises
             }
             Console.WriteLine($"The total number of duplicate elements in arrayWithDuplicates is: {count}");
 
-            Console.ReadLine();*/
+            Console.ReadLine();
 
             //Task 6
 
@@ -117,8 +117,42 @@ namespace CSharpBonusExercises
                     break;
             }
 
-            Console.ReadLine();
+            Console.ReadLine();*/
 
+            // Task 7
+
+            string[] userNames = { "user1", "user2", "user3" };
+            string[] passwords = { "first", "second", "third" };
+
+            while (true)
+            {
+                Console.WriteLine("Please enter your username:");
+                string userInput = (Console.ReadLine());
+                Console.WriteLine("Please enter your password:");
+                string passInput = (Console.ReadLine());
+
+                if (userInput == userNames[0] && passInput == passwords[0])
+                {
+                    Console.WriteLine("You are logged in successfully!");
+                    break;
+                }
+                else if (userInput == userNames[1] && passInput == passwords[1])
+                {
+                    Console.WriteLine("You are logged in successfully!");
+                    break;
+                }
+                else if (userInput == userNames[2] && passInput == passwords[2])
+                {
+                    Console.WriteLine("You are logged in successfully!");
+                    break;
+                }
+                else
+                {
+                    Console.WriteLine("Incorrect username or password!");
+                }
+            }
+
+            Console.ReadLine();
         }
     }
 }
