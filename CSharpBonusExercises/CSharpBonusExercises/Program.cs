@@ -60,29 +60,65 @@ namespace CSharpBonusExercises
             Console.WriteLine($"The maximum element in the array is:{max} and it's index is:{indexMax}");
             Console.WriteLine($"The minimum element in the array is:{min} and it's index is:{indexMin}");
 
-            Console.ReadLine();*/
+            Console.ReadLine();
 
             //Task 4
 
             int[] arrayWithDuplicates = new int[] { 1, 4, 6, 3, 4, 5, 9, 3, 2, 9 };
             int count = 0;
             int[] arr = new int [] { };
+         
             for (int i = 0; i < arrayWithDuplicates.Length; i++)
             {
-                for (int j = i + 1; j < arrayWithDuplicates.Length; j++)
+              for (int j = i + 1; j < arrayWithDuplicates.Length; j++)
                 {
-                   if (arrayWithDuplicates[i] == arrayWithDuplicates[j] && Array.IndexOf(arr, arrayWithDuplicates[i]) == -1)
+                  if (arrayWithDuplicates[i] == arrayWithDuplicates[j] && Array.IndexOf(arr, arrayWithDuplicates[i]) == -1)
                     {
                       Array.Resize(ref arr, arr.Length + 1);
                        arr[arr.Length - 1] = arrayWithDuplicates[i];
                        count++;
                        break;
-                   }
+                    }
                 }
             }
             Console.WriteLine($"The total number of duplicate elements in arrayWithDuplicates is: {count}");
 
+            Console.ReadLine();*/
+
+            //Task 6
+
+            Console.WriteLine("Enter number between 1 and 7!");
+            int number = Convert.ToInt32(Console.ReadLine());
+            switch (number)
+            {
+                case 1:
+                    Console.WriteLine("Monday");
+                    break;
+                case 2:
+                    Console.WriteLine("Tuesday");
+                    break;
+                case 3:
+                    Console.WriteLine("Wednesday");
+                    break;
+                case 4:
+                    Console.WriteLine("Thursday");
+                    break;
+                case 5:
+                    Console.WriteLine("Friday");
+                    break;
+                case 6:
+                    Console.WriteLine("Saturday");
+                    break;
+                case 7:
+                    Console.WriteLine("Sunday");
+                    break;
+                default:
+                    Console.WriteLine("Please enter a number between 1 and 7");
+                    break;
+            }
+
             Console.ReadLine();
+
         }
     }
 }
