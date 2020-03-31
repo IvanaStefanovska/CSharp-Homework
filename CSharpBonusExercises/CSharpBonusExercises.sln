@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpBonusExercises", "CSharpBonusExercises\CSharpBonusExercises.csproj", "{9B8C382A-C9D9-4F3B-B024-74F377CDC3A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpBonusExercises", "CSharpBonusExercises\CSharpBonusExercises.csproj", "{9B8C382A-C9D9-4F3B-B024-74F377CDC3A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework4", "..\Homework4\Homework4.csproj", "{A9B30563-8060-4A22-A517-5F40F1BEB852}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{9B8C382A-C9D9-4F3B-B024-74F377CDC3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B8C382A-C9D9-4F3B-B024-74F377CDC3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B8C382A-C9D9-4F3B-B024-74F377CDC3A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9B30563-8060-4A22-A517-5F40F1BEB852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B30563-8060-4A22-A517-5F40F1BEB852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B30563-8060-4A22-A517-5F40F1BEB852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B30563-8060-4A22-A517-5F40F1BEB852}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
