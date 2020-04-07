@@ -1,5 +1,5 @@
 ﻿using System;
-using Homework5.Classes;
+using ClassLibrary;
 
 namespace Homework5
 {
@@ -129,7 +129,6 @@ namespace Homework5
             };
             while (!UsersUI(users)) ;
             Console.ReadLine();
-
         }
     }
 }
