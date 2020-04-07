@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ClassLibrary
 {
-    class Customer
+    public class Customer
     {
 
         public string FirstName { get; set; }
