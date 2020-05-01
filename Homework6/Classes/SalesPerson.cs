@@ -23,7 +23,7 @@ namespace Classes
             Role = Role.Sales;
         }
 
-        public void ExtendSuccessSaleRevenue(double successValue)
+        public void AddSuccessSaleRevenue(double successValue)
         {
             SuccessSaleRevenue += successValue;
         }
