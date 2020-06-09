@@ -9,11 +9,11 @@ namespace Homework7.Classes
 
         public Dictionary<string, int> phoneBook = new Dictionary<string, int>
         {
-               {"Venko", 078346432  },
-                {"Nikola", 077325234 },
-                {"Sanja",  078345236 },
-                {"Vukasin", 0702354865 },
-                {"Marko", 034587634 }
+               {"Ivana", 071111111 },
+                {"Anita", 072222222 },
+                {"Dejan",  073333333 },
+                {"Alek", 074444444 },
+                {"Igor", 075555555 }
         };
 
     }
