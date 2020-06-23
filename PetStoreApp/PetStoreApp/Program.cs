@@ -7,9 +7,9 @@ namespace PetStoreApp
     {
         static void Main(string[] args)
         {
-            static PetStore<Dog> dogStore = new PetStore<Dog>();
-            static PetStore<Cat> catStore = new PetStore<Cat>();
-            static PetStore<Fish> fishStore = new PetStore<Fish>();
+            PetStore<Dog> dogStore = new PetStore<Dog>();
+            PetStore<Cat> catStore = new PetStore<Cat>();
+            PetStore<Fish> fishStore = new PetStore<Fish>();
 
             static void Main(string[] args, PetStore<Dog> dogStore, PetStore<Cat> catStore, PetStore<Fish> fishStore)
             {
